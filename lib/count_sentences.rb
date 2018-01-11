@@ -33,4 +33,3 @@ class String
     self.split(/[.?!]+/).count_sentences
     end
   end
-end
