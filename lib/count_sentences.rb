@@ -30,6 +30,7 @@ class String
 
 #returns number of sentences in string
   def count_sentences
-    self.split(/[.?!]+/).count
+    self.split(/[.?!]+/).coun
+    end
   end
 end
