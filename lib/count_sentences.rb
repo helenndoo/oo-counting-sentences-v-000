@@ -13,7 +13,7 @@ class String
 
 #returns true if the string you are calling this method on ends in question mark
   def question?
-    if self.end_with("?")
+    if self.end_with?("?")
       true
     else
       false
@@ -21,7 +21,7 @@ class String
   end
 
   def exclamation?
-    if self.end_with("!")
+    if self.end_with?("!")
       true
     else
       false
